@@ -2,38 +2,38 @@
 <testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-21T09:50:50Z" name="Suite" finished-at="2020-04-21T09:51:21Z" duration-ms="31426">
+  <suite started-at="2020-04-21T17:10:29Z" name="Suite" finished-at="2020-04-21T17:11:21Z" duration-ms="51915">
     <groups>
     </groups>
-    <test started-at="2020-04-21T09:50:50Z" name="Test" finished-at="2020-04-21T09:51:21Z" duration-ms="31426">
+    <test started-at="2020-04-21T17:10:29Z" name="Test" finished-at="2020-04-21T17:11:21Z" duration-ms="51915">
       <class name="Test_Scripts.LoginPage_Test">
-        <test-method signature="getLoginpagetitle()[pri:0, instance:Test_Scripts.LoginPage_Test@7b5a12ae]" started-at="2020-04-21T09:51:15Z" name="getLoginpagetitle" finished-at="2020-04-21T09:51:15Z" duration-ms="37" status="PASS">
+        <test-method signature="getLoginpagetitle()[pri:0, instance:Test_Scripts.LoginPage_Test@5286c33a]" started-at="2020-04-21T17:11:10Z" name="getLoginpagetitle" finished-at="2020-04-21T17:11:10Z" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLoginpagetitle -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Test_Scripts.LoginPage_Test@7b5a12ae]" started-at="2020-04-21T09:51:21Z" name="closebrowser" finished-at="2020-04-21T09:51:21Z" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Test_Scripts.LoginPage_Test@5286c33a]" started-at="2020-04-21T17:11:21Z" name="closebrowser" finished-at="2020-04-21T17:11:21Z" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- Test_Scripts.LoginPage_Test -->
       <class name="Test_Scripts.Homepage_Test">
-        <test-method is-config="true" signature="startbrowser()[pri:0, instance:Test_Scripts.Homepage_Test@63fdab07]" started-at="2020-04-21T09:50:50Z" name="startbrowser" finished-at="2020-04-21T09:50:59Z" duration-ms="9501" status="PASS">
+        <test-method is-config="true" signature="startbrowser()[pri:0, instance:Test_Scripts.Homepage_Test@38f116f6]" started-at="2020-04-21T17:10:29Z" name="startbrowser" finished-at="2020-04-21T17:10:43Z" duration-ms="13404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startbrowser -->
-        <test-method signature="getTitle()[pri:0, instance:Test_Scripts.Homepage_Test@63fdab07]" started-at="2020-04-21T09:50:59Z" name="getTitle" finished-at="2020-04-21T09:50:59Z" duration-ms="19" status="PASS">
+        <test-method signature="getTitle()[pri:0, instance:Test_Scripts.Homepage_Test@38f116f6]" started-at="2020-04-21T17:10:43Z" name="getTitle" finished-at="2020-04-21T17:10:43Z" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method signature="hoverMarketActivity()[pri:0, instance:Test_Scripts.Homepage_Test@63fdab07]" started-at="2020-04-21T09:50:59Z" name="hoverMarketActivity" finished-at="2020-04-21T09:51:15Z" duration-ms="15955" status="PASS">
+        <test-method signature="hoverMarketActivity()[pri:0, instance:Test_Scripts.Homepage_Test@38f116f6]" started-at="2020-04-21T17:10:43Z" name="hoverMarketActivity" finished-at="2020-04-21T17:11:10Z" duration-ms="27834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hoverMarketActivity -->
-        <test-method signature="acceptcookie()[pri:1, instance:Test_Scripts.Homepage_Test@63fdab07]" started-at="2020-04-21T09:51:15Z" name="acceptcookie" finished-at="2020-04-21T09:51:16Z" duration-ms="268" status="PASS">
+        <test-method signature="acceptcookie()[pri:1, instance:Test_Scripts.Homepage_Test@38f116f6]" started-at="2020-04-21T17:11:10Z" name="acceptcookie" finished-at="2020-04-21T17:11:16Z" duration-ms="5113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acceptcookie -->
-        <test-method signature="getLogin()[pri:2, instance:Test_Scripts.Homepage_Test@63fdab07]" started-at="2020-04-21T09:51:16Z" name="getLogin" finished-at="2020-04-21T09:51:21Z" duration-ms="5401" status="PASS">
+        <test-method signature="getLogin()[pri:2, instance:Test_Scripts.Homepage_Test@38f116f6]" started-at="2020-04-21T17:11:16Z" name="getLogin" finished-at="2020-04-21T17:11:21Z" duration-ms="5168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLogin -->
