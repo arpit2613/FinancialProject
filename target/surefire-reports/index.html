@@ -29,15 +29,15 @@
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Suite" class="navigator-link">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
               <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
                     <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -101,28 +101,28 @@
                     </span>
                     <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test_Scripts.Homepage_Test" class="method navigator-link" hash-for-method="acceptcookie">acceptcookie</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Scripts.Homepage_Test" hash-for-method="acceptcookie">acceptcookie</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test_Scripts.Homepage_Test" class="method navigator-link" hash-for-method="getLogin">getLogin</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Scripts.Homepage_Test" hash-for-method="getLogin">getLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test_Scripts.LoginPage_Test" class="method navigator-link" hash-for-method="getLoginpagetitle">getLoginpagetitle</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Scripts.LoginPage_Test" hash-for-method="getLoginpagetitle">getLoginpagetitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test_Scripts.Homepage_Test" class="method navigator-link" hash-for-method="getTitle">getTitle</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Scripts.Homepage_Test" hash-for-method="getTitle">getTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test_Scripts.Homepage_Test" class="method navigator-link" hash-for-method="hoverMarketActivity">hoverMarketActivity</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Test_Scripts.Homepage_Test" hash-for-method="hoverMarketActivity">hoverMarketActivity</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -197,8 +197,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Test_Scripts.Homepage_Test&quot;/&gt;
       &lt;class name=&quot;Test_Scripts.LoginPage_Test&quot;/&gt;
@@ -245,28 +245,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'hoverMarketActivity')
 data.setCell(0, 2, 'Test_Scripts.Homepage_Test')
-data.setCell(0, 3, 15955);
+data.setCell(0, 3, 53224);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'getLogin')
 data.setCell(1, 2, 'Test_Scripts.Homepage_Test')
-data.setCell(1, 3, 5401);
+data.setCell(1, 3, 5295);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'acceptcookie')
 data.setCell(2, 2, 'Test_Scripts.Homepage_Test')
-data.setCell(2, 3, 268);
+data.setCell(2, 3, 741);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'getLoginpagetitle')
 data.setCell(3, 2, 'Test_Scripts.LoginPage_Test')
-data.setCell(3, 3, 37);
+data.setCell(3, 3, 58);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'getTitle')
 data.setCell(4, 2, 'Test_Scripts.Homepage_Test')
-data.setCell(4, 3, 19);
+data.setCell(4, 3, 9);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -306,36 +306,36 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">getTitle</span>
-                <span class="method-start">9523 ms</span>
+                <span class="method-start">9193 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">hoverMarketActivity</span>
-                <span class="method-start">9549 ms</span>
+                <span class="method-start">9203 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test_Scripts.LoginPage_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getLoginpagetitle</span>
-                <span class="method-start">25509 ms</span>
+                <span class="method-start">62438 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test_Scripts.Homepage_Test</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">acceptcookie</span>
-                <span class="method-start">25549 ms</span>
+                <span class="method-start">62497 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getLogin</span>
-                <span class="method-start">25819 ms</span>
+                <span class="method-start">63239 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test_Scripts.LoginPage_Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">closebrowser</span>
-                <span class="method-start">31222 ms</span>
+                <span class="method-start">68535 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

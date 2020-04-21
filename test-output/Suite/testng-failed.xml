@@ -5,10 +5,19 @@
     <classes>
       <class name="Test_Scripts.LoginPage_Test">
         <methods>
+          <include name="getLoginpagetitle"/>
           <include name="closebrowser"/>
-          <include name="create_newAccount"/>
         </methods>
       </class> <!-- Test_Scripts.LoginPage_Test -->
+      <class name="Test_Scripts.Homepage_Test">
+        <methods>
+          <include name="hoverMarketActivity"/>
+          <include name="startbrowser"/>
+          <include name="getLogin"/>
+          <include name="acceptcookie"/>
+          <include name="getTitle"/>
+        </methods>
+      </class> <!-- Test_Scripts.Homepage_Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

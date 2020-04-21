@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68675" started-at="2020-04-21T09:51:37Z" finished-at="2020-04-21T09:52:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="68675" started-at="2020-04-21T09:51:37Z" finished-at="2020-04-21T09:52:46Z">
+      <class name="Test_Scripts.LoginPage_Test">
+        <test-method status="PASS" signature="getLoginpagetitle()[pri:0, instance:Test_Scripts.LoginPage_Test@63355449]" name="getLoginpagetitle" duration-ms="58" started-at="2020-04-21T09:52:40Z" finished-at="2020-04-21T09:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginpagetitle -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Test_Scripts.LoginPage_Test@63355449]" name="closebrowser" is-config="true" duration-ms="139" started-at="2020-04-21T09:52:46Z" finished-at="2020-04-21T09:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Test_Scripts.LoginPage_Test -->
+      <class name="Test_Scripts.Homepage_Test">
+        <test-method status="PASS" signature="startbrowser()[pri:0, instance:Test_Scripts.Homepage_Test@7e0b85f9]" name="startbrowser" is-config="true" duration-ms="9169" started-at="2020-04-21T09:51:37Z" finished-at="2020-04-21T09:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:Test_Scripts.Homepage_Test@7e0b85f9]" name="getTitle" duration-ms="9" started-at="2020-04-21T09:51:46Z" finished-at="2020-04-21T09:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="hoverMarketActivity()[pri:0, instance:Test_Scripts.Homepage_Test@7e0b85f9]" name="hoverMarketActivity" duration-ms="53224" started-at="2020-04-21T09:51:46Z" finished-at="2020-04-21T09:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverMarketActivity -->
+        <test-method status="PASS" signature="acceptcookie()[pri:1, instance:Test_Scripts.Homepage_Test@7e0b85f9]" name="acceptcookie" duration-ms="741" started-at="2020-04-21T09:52:40Z" finished-at="2020-04-21T09:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptcookie -->
+        <test-method status="PASS" signature="getLogin()[pri:2, instance:Test_Scripts.Homepage_Test@7e0b85f9]" name="getLogin" duration-ms="5295" started-at="2020-04-21T09:52:40Z" finished-at="2020-04-21T09:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogin -->
+      </class> <!-- Test_Scripts.Homepage_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

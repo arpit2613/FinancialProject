@@ -1,0 +1,3 @@
+resources/Base.class
+object_repositories/LoginPage.class
+object_repositories/Homepage.class

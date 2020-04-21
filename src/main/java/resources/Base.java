@@ -1,5 +1,6 @@
 package resources;
 
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -18,7 +19,7 @@ public class Base {
 	
 	public WebDriver browserInitialize() throws IOException {
 		
-		FileInputStream fis = new FileInputStream("/Users/arpit/Eclipse/eclipse workspace3/FinanceSite_Project/src/main/java/resources/config.properties");
+		FileInputStream fis = new FileInputStream("/Users/arpit/Eclipse/eclipse-workspace3/FinanceSite_Project/src/main/java/resources/config.properties");
 		Properties prop = new Properties();
 		prop.load(fis);
 		String browser = prop.getProperty("browser");
@@ -26,7 +27,7 @@ public class Base {
 		if(browser.equalsIgnoreCase("Chrome"))//Chrome Driver Initialization 
 		{
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/arpit/Eclipse/eclipse workspace3/FinanceSite_Project/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/arpit/Eclipse/eclipse-workspace3/FinanceSite_Project/chromedriver");
 		driver = new ChromeDriver();
 		driver.get(prop.getProperty("Url"));
 		}
