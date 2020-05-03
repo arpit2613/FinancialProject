@@ -24,14 +24,14 @@ public class Homepage_Test extends Base{
 
 	}
 	
-	@Test(priority=0)
+	@Test
 	public void getTitle()
 	{
 		String Title = driver.getTitle();
 		log.info("Homepage Title is Displayed");
 	}
 	
-	@Test(priority=3)
+	@Test
 	public void getLogin()
 	{
 		Homepage hp = new Homepage(driver);
@@ -40,7 +40,7 @@ public class Homepage_Test extends Base{
 
 	}
 	
-	@Test(priority=1)
+	@Test
 	public void acceptcookie()
 	{
 		Homepage hp = new Homepage(driver);
@@ -49,7 +49,7 @@ public class Homepage_Test extends Base{
 		
 	}
 	
-	@Test(priority=2)
+	@Test
 	public void hoverMarketActivity()
 	{
 		Homepage hp = new Homepage(driver);

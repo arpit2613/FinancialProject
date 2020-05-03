@@ -23,7 +23,7 @@ public class LoginPage_Test extends Base {
 	}
 	
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void create_newAccount() throws InterruptedException
 	{
 		log.error("This method is not running");
@@ -40,8 +40,7 @@ public class LoginPage_Test extends Base {
 	}	
 
 	
-	
-	@AfterTest(enabled = true)
+	@AfterTest
 	public void closebrowser()
 	{
 		
