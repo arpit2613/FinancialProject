@@ -26,10 +26,19 @@ public class LoginPage_Test extends Base {
 	@Test(enabled = false)
 	public void create_newAccount() throws InterruptedException
 	{
-		log.error("This method is not able to find the specified locater");
+		log.error("This method is not running");
 		LoginPage lp = new LoginPage(driver);
 		lp.Createaccount().click();
 	}	
+	
+	@Test(enabled = true)
+	public void forgot_Password() throws InterruptedException
+	{
+		log.debug("Running Forgot Password Link Script");
+		LoginPage lp = new LoginPage(driver);
+		lp.ForgotPassword().click();
+	}	
+
 	
 	
 	@AfterTest(enabled = true)

@@ -31,11 +31,13 @@ public class Homepage_Test extends Base{
 		log.info("Homepage Title is Displayed");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=3)
 	public void getLogin()
 	{
 		Homepage hp = new Homepage(driver);
 		hp.hitLogin().click();
+		log.debug("Login Button Clicked");
+
 	}
 	
 	@Test(priority=1)
@@ -43,10 +45,11 @@ public class Homepage_Test extends Base{
 	{
 		Homepage hp = new Homepage(driver);
 		hp.acceptCookie().click();
+		log.debug("Cookie Accepted");
 		
 	}
 	
-	@Test
+	@Test(priority=2)
 	public void hoverMarketActivity()
 	{
 		Homepage hp = new Homepage(driver);
